@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    url: ${DB_URL}
+    username: brume
+    password: pwd
+    hikari:
+      maximum-pool-size: 2
+  test:
+    database:
+      replace: none
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+      database-platform: org.hibernate.dialect.Oracle10gDialect
+
+

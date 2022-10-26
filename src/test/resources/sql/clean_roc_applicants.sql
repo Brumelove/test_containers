@@ -1,0 +1,12 @@
+Delete
+From APPLICANTS;
+Delete
+From APPLICANTS_ATTACH;
+Delete
+From APPLICANTS_ADM;
+Delete
+From APPLICANTS_CONTACT;
+Delete
+From APPLICANTS_USER;
+Delete
+From COMPANIES;
